@@ -3,7 +3,12 @@ export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
   devtools: { enabled: true },
   css: ['~/assets/css/main.css'],
-  modules: ['@nuxt/scripts', '@nuxtjs/seo'],
+  modules: [
+    '@nuxt/scripts',
+    '@nuxtjs/seo',
+    '@pinia/nuxt',
+    '@nuxt/image',
+  ],
   scripts: {
     registry: {
       googleAnalytics: {

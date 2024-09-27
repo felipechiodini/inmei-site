@@ -1,10 +1,9 @@
-<script setup lang="ts">
-</script>
-
 <template>
-  <Navbar />
-  <Hero />
-  <Features />
-  <Pricing />
-  <FAQ />
+    <LazyHero />
+    <LazyCategory />
+    <LazyDestinations />
+    <LazyBookings />
+    <LazyTestimonials />
+    <LazyCompanies />
+    <LazySubscribe />
 </template>
