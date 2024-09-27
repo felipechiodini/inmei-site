@@ -8,10 +8,10 @@ const mobileMenuOpen = ref(false);
 </script>
 
 <template>
-  <div
-    class="p-5 sm:px-16 sm:py-6 flex items-center w-full justify-between font-poppins"
-  >
-    <Logo />
+  <div class="p-5 sm:px-16 sm:py-6 flex items-center w-full justify-between font-poppins">
+    <button class="bg-[#F1A501] text-white p-3 text-sm rounded ml-auto">
+      Entrar
+    </button>
     <div class="hidden lg:flex items-center space-x-20">
       <ul class="flex items-center space-x-12">
         <li><NuxtLink to="#">Destinations</NuxtLink></li>
