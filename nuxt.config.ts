@@ -4,6 +4,13 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   css: ['~/assets/css/main.css'],
   modules: ['@nuxt/scripts', '@nuxtjs/seo'],
+  scripts: {
+    registry: {
+      googleAnalytics: {
+        id: 'G-ER6R65RPXM',
+      }
+    }
+  },
   postcss: {
     plugins: {
       tailwindcss: {},
