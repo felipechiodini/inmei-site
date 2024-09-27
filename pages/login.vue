@@ -14,9 +14,10 @@
 <script>
 
 export default {
+    middleware: 'guest',
     methods: {
         onsubmit() {
-            console.log('submit')
+            
         }
     }
 }
