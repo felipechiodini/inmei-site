@@ -2,5 +2,12 @@
 export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
   devtools: { enabled: true },
-  modules: ['@nuxt/scripts', '@nuxtjs/seo']
+  css: ['~/assets/css/main.css'],
+  modules: ['@nuxt/scripts', '@nuxtjs/seo'],
+  postcss: {
+    plugins: {
+      tailwindcss: {},
+      autoprefixer: {},
+    },
+  },
 })
