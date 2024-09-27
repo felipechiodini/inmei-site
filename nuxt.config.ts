@@ -11,6 +11,19 @@ export default defineNuxtConfig({
       }
     }
   },
+  site: {
+    url: 'https://inmei.com.br',
+    name: 'Inmei | Serviços para seu MEI',
+    
+  },
+  app: {
+    head: {
+      titleTemplate: '%s %separator %siteName',
+      templateParams: {
+        separator: '-'
+      }
+    }
+  },
   postcss: {
     plugins: {
       tailwindcss: {},
