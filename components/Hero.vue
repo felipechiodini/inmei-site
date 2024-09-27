@@ -9,7 +9,7 @@
           Serviços de gerenciamento de contas, gestão de contas, gestão de contas, gestão de contas.
         </p>
         <div class="items-center justify-center gap-x-3 space-y-3 sm:flex sm:space-y-0">
-          <NuxtLink href="#pricing" class="block py-2 px-4 text-white font-medium bg-primary-600 duration-150 hover:bg-primary-500 active:bg-primary-700 rounded-lg shadow-lg hover:shadow-none">
+          <NuxtLink href="#pricing" class="block py-2 px-4 font-medium bg-primary-600 duration-150 hover:bg-primary-500 active:bg-primary-700 rounded-lg border">
             Assinar
           </NuxtLink>
           <NuxtLink href="/login" class="block py-2 px-4 font-medium duration-150 active:bg-gray-100 border rounded-lg">

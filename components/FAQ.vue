@@ -28,10 +28,10 @@ const faqs = [
     <section class="leading-relaxed max-w-screen-xl mt-12 mx-auto px-4 md:px-8">
       <div class="space-y-3 text-center">
         <h1 class="text-3xl font-semibold">
-          Frequently Asked Questions
+          Perguntas Frequentes
         </h1>
         <p class="max-w-lg mx-auto text-lg">
-          Feel free to reach out if your question is not answered here.
+          Sinta-se livre para entrar em contato conosco se a sua pergunta não estiver respondida aqui.
         </p>
       </div>
       <div class="mt-14 max-w-2xl mx-auto">
